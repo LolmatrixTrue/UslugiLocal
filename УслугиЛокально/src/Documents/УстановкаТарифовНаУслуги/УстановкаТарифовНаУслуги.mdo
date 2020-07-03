@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be3b9452-812a-479c-a7cd-2a79ed688a03">
+  <producedTypes>
+    <objectType typeId="0d13484e-b29c-4e0e-9309-6efc1817b8b8" valueTypeId="c90ec173-356a-4673-b156-b5dcd0273ad7"/>
+    <refType typeId="2c6c6d95-22e7-463f-8e00-1ac71a41bd50" valueTypeId="e62442dc-6e48-48e7-b99d-65720f69a643"/>
+    <selectionType typeId="54161fe7-d049-4478-a895-8a59cc519501" valueTypeId="669d6098-6cad-4395-bd55-02fc0389413b"/>
+    <listType typeId="52316e80-7560-450f-85b2-95df0fa5230e" valueTypeId="67fb86bf-774d-4c56-85b3-1f39f14700f7"/>
+    <managerType typeId="b1091722-2d4b-4928-a06b-41f792aa8e64" valueTypeId="2d179dda-d046-43d6-b949-bacf1f6ce59e"/>
+  </producedTypes>
+  <name>УстановкаТарифовНаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка тарифов на услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаТарифовНаУслуги.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаТарифовНаУслуги.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаТарифовНаУслуги.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.ТарифыНаУслуги</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="81af994b-8cf4-4821-b639-5833d030658d">
+    <name>ДатаИзмененияТарифа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения тарифа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa8a20dd-181a-42ac-92ca-13f5384ea363">
+    <name>ТарифНаГаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на газ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb58dffc-451b-49fa-a484-13c27674ceca">
+    <name>ТарифНаЭлектроэнергию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на электроэнергию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f94e1876-3ce2-4452-ae60-36c8efa975ad">
+    <name>ТарифНаВоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на воду</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="f0521f79-b19c-4259-97ca-a3367cf1bec6">
+    <name>ТарифНаМусор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на мусор</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fb0717a0-5404-4e39-bfb4-d8ea93997e73">
+    <name>ТарифНаИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на интернет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="b3af6b31-2759-4117-ab68-35da4c910316">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee225c45-628a-4b79-aa2d-ded4831ca8ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

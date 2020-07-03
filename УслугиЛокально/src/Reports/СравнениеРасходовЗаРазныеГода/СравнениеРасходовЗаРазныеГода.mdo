@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f78e27ec-44fa-4b1d-8ea4-6aae4851fbad">
+  <producedTypes>
+    <objectType typeId="5351df07-1511-4c74-ae7e-b6356d27555a" valueTypeId="22136136-e29b-42f2-b1cb-11963624b312"/>
+    <managerType typeId="d08921c7-05fc-44e0-aac1-ba09189b33ed" valueTypeId="4d5a5b2d-ae0f-4c18-83d7-9233077bd7ca"/>
+  </producedTypes>
+  <name>СравнениеРасходовЗаРазныеГода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение расходов за разные года</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СравнениеРасходовЗаРазныеГода.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2d72ebc6-71f3-432b-a6e7-bd0e003c6966">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

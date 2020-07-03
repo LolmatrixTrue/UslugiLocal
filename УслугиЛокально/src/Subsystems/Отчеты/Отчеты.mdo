@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2a958ad-5df2-4ab4-9725-a177324d5a09">
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ОтчетПоПлатежам</content>
+  <content>81167536-8bb7-4fe4-a9be-520e87f126e0</content>
+  <content>Catalog.ХранимыеФайлы</content>
+  <content>Report.ТаблицаОплат</content>
+  <content>a2d8fe24-20bd-4490-a281-d6900734890c</content>
+  <content>Report.СравнениеРасходовЗаРазныеГода</content>
+</mdclass:Subsystem>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94bd2987-76ee-4a72-af60-7db50f40f84b">
+  <producedTypes>
+    <refType typeId="4bfca3a8-4b25-4bd2-a167-0ec10cb4e44e" valueTypeId="fdcbeebe-f493-4594-915a-fab61bd076e8"/>
+    <listType typeId="53b8ecc4-b77d-4dae-9d80-4f907d8513b8" valueTypeId="a4e6366d-ad8f-4370-97e2-5b14098712f1"/>
+    <managerType typeId="0ab1b4a5-242a-4f67-af3b-2e0e65902071" valueTypeId="9e52fb8a-3a30-4ddb-9c8d-bee88d99d6df"/>
+  </producedTypes>
+  <name>года</name>
+  <synonym>
+    <key>ru</key>
+    <value>Года</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="171d5978-52fb-4a37-8f97-362af0da88c4">
+    <name>год2018</name>
+    <synonym>
+      <key>ru</key>
+      <value>2018</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25864b27-9af6-43d6-81e5-3a1707cb3ba2">
+    <name>год2019</name>
+    <synonym>
+      <key>ru</key>
+      <value>2019</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec8392df-0d58-46f5-b488-62f150317ea4">
+    <name>год2020</name>
+    <synonym>
+      <key>ru</key>
+      <value>2020</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

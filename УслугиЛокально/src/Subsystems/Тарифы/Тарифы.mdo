@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f30e0b09-bdd6-47df-ae1d-92da62ed27fe">
+  <name>Тарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>14e44be6-55c1-4935-84bf-e020a64a5b1f</content>
+  <content>InformationRegister.ТарифыНаУслуги</content>
+  <content>Document.УстановкаТарифовНаУслуги</content>
+</mdclass:Subsystem>

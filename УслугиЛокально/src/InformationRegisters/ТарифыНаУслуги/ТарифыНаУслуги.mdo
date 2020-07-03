@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac836333-9250-441e-a361-c891c17e21fd">
+  <producedTypes>
+    <selectionType typeId="d7879cc6-9379-47db-b3db-41f9ade09cc3" valueTypeId="14569fa0-6f9f-4359-b2a5-612a87a62a84"/>
+    <listType typeId="30c327b4-8221-4bd2-a098-bbff9e5a622a" valueTypeId="53106208-5ac0-4571-8e12-bb349b5ed6d7"/>
+    <managerType typeId="fe296289-aaca-4d6a-8d0a-207d6c87d01d" valueTypeId="dd9b1754-f7ae-4caf-9eb4-a3291ddb86dc"/>
+    <recordSetType typeId="1076bc21-3142-4534-a208-2df24ed09390" valueTypeId="589dd4e5-84eb-4be0-9e9c-b4de331df341"/>
+    <recordKeyType typeId="6d37a8d7-0e60-4e86-9412-bf23c0f45f1c" valueTypeId="f671f76c-4884-4ba3-bcd8-6530beac771e"/>
+    <recordType typeId="77dd36e5-0fe4-4295-b211-fa1b0f763a41" valueTypeId="0adf71a8-33b5-428d-998a-119ef6240be3"/>
+    <recordManagerType typeId="0b60f1c9-15ad-45d0-8700-0e334c64862b" valueTypeId="58e8961a-c2fd-4b50-9d3d-7bf6308aec00"/>
+  </producedTypes>
+  <name>ТарифыНаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы на услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="685a2fa0-a115-4ce8-ac8b-d6872ea45976">
+    <name>ТарифНаГаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на газ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>5</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2e64d102-83b4-448b-b6b9-a11771fd34be">
+    <name>ТарифНаЭлектроэнергию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на электроэнергию</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3ac79755-cd5d-409e-96dd-cedb9d34a1dc">
+    <name>ТарифНаВоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на воду</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="41c2c4bd-7bdf-4852-9b12-b476e665a1ea">
+    <name>ТарифНаМусор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на мусор</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2a1e741c-1b69-4d3d-9a3a-590b22b3b803">
+    <name>ТарифНаИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на интернет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c4f06c7a-5d82-40c3-944f-0ee2e4977765">
+    <name>ДатаТарифа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата тарифа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

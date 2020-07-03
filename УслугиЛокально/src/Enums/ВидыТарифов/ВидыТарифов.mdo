@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d04d6003-e08b-45af-97c5-65f5f92171e7">
+  <producedTypes>
+    <refType typeId="5125cc71-990a-4b63-a3ac-425ed9d8636c" valueTypeId="e0a81d25-ce91-4552-9d9d-9a6ffac5baea"/>
+    <listType typeId="b7edd533-5f47-4873-935f-9269852b9fab" valueTypeId="408e5e75-bc0a-4990-9ad8-01339a316555"/>
+    <managerType typeId="c0358232-b4fa-4049-b6fe-58cbb174759d" valueTypeId="96f0239d-5413-4ba2-beda-9d5bf5c6d026"/>
+  </producedTypes>
+  <name>ВидыТарифов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тарифов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1015c69e-af02-4f42-b0c5-103ef81f1d10">
+    <name>ТарифНаГаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на газ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbe08b93-3559-4ca4-8862-cd1b398a952c">
+    <name>ТарифНаСвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на свет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55f5c550-b8f4-40f1-ad53-02cbfabc9be9">
+    <name>ТарифНаВоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф на воду</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

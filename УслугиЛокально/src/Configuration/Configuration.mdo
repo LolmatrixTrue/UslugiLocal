@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cdebe65-29e8-4f86-87ce-07fdb46f5ef9">
+  <name>РасчетПлатежейЗаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет платежей за услуги </value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f37457ab-3e56-43ac-9419-09f126e0211d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0ac584f9-6126-44ce-abae-6c043daba840"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="15c3bfed-0b48-40ee-800e-a41bdb0bad84"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="867e25e0-ded8-4ebb-a519-f0aa5989ad4a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="dd7aa955-071f-4c35-b8de-d631dd13c17e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="09c15173-0c91-4335-9edf-dac1eb95c362"/>
+  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.1</version>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Услуги</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Расчеты за услуги</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>я</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="3fdee8c0-be21-4e67-a43a-2bc3e4d03899">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Услуги</subsystems>
+  <subsystems>Subsystem.Тарифы</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Регистры</subsystems>
+  <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.ОбработкаДатыВыбора</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбработкаДатыВыбораКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.ХранимыеФайлы</catalogs>
+  <documents>Document.Услуги</documents>
+  <documents>Document.УстановкаТарифовНаУслуги</documents>
+  <enums>Enum.Месяцы</enums>
+  <enums>Enum.ВидыТарифов</enums>
+  <enums>Enum.года</enums>
+  <reports>Report.ОтчетПоПлатежам</reports>
+  <reports>Report.ТаблицаОплат</reports>
+  <reports>Report.СравнениеРасходовЗаРазныеГода</reports>
+  <dataProcessors>DataProcessor.Услуги</dataProcessors>
+  <informationRegisters>InformationRegister.Услуги</informationRegisters>
+  <informationRegisters>InformationRegister.ТарифыНаУслуги</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасходыУслуг</accumulationRegisters>
+</mdclass:Configuration>

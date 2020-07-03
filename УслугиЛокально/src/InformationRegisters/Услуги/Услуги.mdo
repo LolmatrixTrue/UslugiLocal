@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="689797ee-2d58-45b2-a00e-2ef55134a401">
+  <producedTypes>
+    <selectionType typeId="989ea3a1-42d1-4aa9-bfab-0e6e563055ca" valueTypeId="b7fb810c-b5fe-4393-ae65-138d733c2e02"/>
+    <listType typeId="1ca82da7-e793-489f-b158-f764ac9a6558" valueTypeId="50415a3c-c657-4d16-8b30-5f2394fcf9e8"/>
+    <managerType typeId="f3936274-4edc-4e6a-bf75-4b5661daba9a" valueTypeId="77d9f75d-e8bd-4af1-a41f-9e27e1d18dc3"/>
+    <recordSetType typeId="e189ad86-41cb-4d26-b7ae-7119118c4b76" valueTypeId="5fba9fc8-f421-4766-a0cd-df7751674025"/>
+    <recordKeyType typeId="67c97c50-a27f-4214-9960-39fd4f8bc81f" valueTypeId="89fd3b77-4e18-4f72-873e-b3c381a373bb"/>
+    <recordType typeId="7421ec2a-a3dd-498c-b0a1-4e3f05383256" valueTypeId="813c711c-e6eb-499c-b3d1-de4cc96d2621"/>
+    <recordManagerType typeId="cb6ecde6-0e10-4297-86e0-728e5d135fde" valueTypeId="722ae1ad-c5f8-4e5c-9290-d471656e7ddd"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2212f858-e94c-43ca-a267-3c6b3a8bc8dc">
+    <name>Газ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="76f38e42-c688-426a-85e4-4fe2a3567588">
+    <name>Свет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="47c8d53c-fcaa-471d-ace5-d16999e8a38b">
+    <name>Вода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="240c9c8d-0031-4955-a476-cbc4c93f85c6">
+    <name>РасходГаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход газ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b549d4db-a381-44e5-ac12-8787017cc5c3">
+    <name>РасходСвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход свет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e6b4687b-7b2d-40e2-8df1-7281eb1c4271">
+    <name>РасходВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход вода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3e9f2f81-e5dd-4c25-8c25-3a34a607ddcd">
+    <name>ДатаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

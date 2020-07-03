@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e0f834f-d57c-4cc5-bda7-b4946595cd69">
+  <producedTypes>
+    <objectType typeId="656ccae7-94ec-4980-a9f7-2e69c1ba513b" valueTypeId="d6cbcae7-8790-433c-bf22-fb35a3350b54"/>
+    <managerType typeId="ba55a816-1e46-472c-ad46-f53485fd61c1" valueTypeId="76a2cfdf-3e6e-48fc-a79f-29beda2744a0"/>
+  </producedTypes>
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Услуги.Form.Форма</defaultForm>
+  <attributes uuid="be7896ba-f3ab-4ff9-bab5-f6af2d2fb81a">
+    <name>ТарифГаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф газ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="471f8340-71f8-4fea-945d-bdc2f9ec68f0">
+    <name>Тарифсвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тарифсвет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6aba0fe8-abcd-4fa5-9bec-5615a8f9fcd5">
+    <name>ТарифВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф вода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ce93ac73-393a-477f-8537-36435b579613">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

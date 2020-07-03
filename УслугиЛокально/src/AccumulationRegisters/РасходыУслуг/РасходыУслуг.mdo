@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97639109-6d26-4bb5-a55d-43c7501a0da2">
+  <producedTypes>
+    <selectionType typeId="11aaab40-9ab0-465c-8c9f-7dcf8afb3b88" valueTypeId="1ad82475-680e-4c76-830a-c271c52e67bb"/>
+    <listType typeId="96dfa8e1-7edd-4978-8138-748ea3da5ed7" valueTypeId="42053825-302f-4889-b602-ef4bedfcc818"/>
+    <managerType typeId="76cff1bd-5b72-411f-928b-62833c9d21a6" valueTypeId="48a30dea-9fc0-465d-a0d7-3d05ff26ee08"/>
+    <recordSetType typeId="f95d8d80-fb51-46b6-ac84-7e57f5277a56" valueTypeId="fdc34d36-4a47-49ea-b2c3-9d0e6342aeb5"/>
+    <recordKeyType typeId="3c1b0844-8d60-4fb5-a841-4b8674b27d10" valueTypeId="fc100be8-3177-4410-b66f-2e998b23557e"/>
+    <recordType typeId="85783d38-0c58-4950-9241-be46e39a82f8" valueTypeId="2d8aec41-4806-4b16-a652-9a73db38314a"/>
+  </producedTypes>
+  <name>РасходыУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходы услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e6ae62b5-976a-412b-84b1-22df16bc0c73">
+    <name>Газ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e6c24ce7-ba58-4ee6-8d71-13437b5f438a">
+    <name>Свет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8a883b71-b70d-44f4-8f7c-9971bdc1c520">
+    <name>Вода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0b272b7d-20e5-47a5-9f9a-f90ef48959a8">
+    <name>Периодрасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодрасхода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
